@@ -1,0 +1,67 @@
+/* Selector {
+    Property: Value;
+} */
+
+p {
+    color: red;
+    font-size: 12px;
+    background-color: blue;
+}
+
+div p {
+    color: blue;
+    background: red;
+    font-size: 70px;
+}
+
+* {
+    font-family: Arial;
+}
+
+.class_test {
+    font-size: 150px;
+    color: white;
+}
+
+#id_test {
+    color: yellow;
+    font-size: 6px;
+}
+
+.hover_test:hover {
+    color: purple;
+}
+
+a:visited {
+    color: lime;
+}
+
+.rainbow {
+ background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+ background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+ color:transparent;
+ -webkit-background-clip: text;
+ background-clip: text;
+}
+
+#popular {
+    color: green;
+    color: #2FEBCB; #3f6 
+    color: rgb(47, 235, 203);
+    color: rgba(47, 235, 203, .5);
+    background-color: #ffffff;
+    background-image: url("example.com/example.jpg");
+    background: url("example.jpg");
+    font-size: 12em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+}
